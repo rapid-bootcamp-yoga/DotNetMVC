@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\DotNETMVC\\webMVC\\webMVC.csproj": {}
+    "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\dotNETMVC\\webMVC\\webMVC.csproj": {}
   },
   "projects": {
-    "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\DotNETMVC\\webMVC\\webMVC.csproj": {
+    "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\dotNETMVC\\webMVC\\webMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\DotNETMVC\\webMVC\\webMVC.csproj",
+        "projectUniqueName": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\dotNETMVC\\webMVC\\webMVC.csproj",
         "projectName": "webMVC",
-        "projectPath": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\DotNETMVC\\webMVC\\webMVC.csproj",
+        "projectPath": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\dotNETMVC\\webMVC\\webMVC.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\DotNETMVC\\webMVC\\obj\\",
+        "outputPath": "D:\\Belajar Software Engineer\\dotNET\\DotNetMVC\\dotNETMVC\\webMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
