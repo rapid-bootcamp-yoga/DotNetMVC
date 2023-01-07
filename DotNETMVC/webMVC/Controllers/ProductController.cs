@@ -24,7 +24,7 @@ namespace webMVC.Controllers
                 new ProductViewModel(3, "Jus Melon", "Minuman", 14000),
                 new ProductViewModel(4, "Ikan Gurame", "Makanan", 56000),
             };
-                return View();
+                return View(productList);
         }
     }
 }
