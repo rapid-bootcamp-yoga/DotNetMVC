@@ -7,6 +7,9 @@
         public string Category { get; set; }
         public int Price { get; set; }
 
+        public ProductViewModel() 
+        { 
+        }
   
         public ProductViewModel(int id, string name, string category, int price)
         {

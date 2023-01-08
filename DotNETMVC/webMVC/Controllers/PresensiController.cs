@@ -4,7 +4,7 @@ namespace webMVC.Controllers
 {
     public class PresensiController : Controller
     {
-        public IActionResult Index()
+        public IActionResult List()
         {
             return View();
         }
