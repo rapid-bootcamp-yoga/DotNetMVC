@@ -26,5 +26,11 @@ namespace webMVC.Controllers
             };
                 return View(productList);
         }
+
+        public IActionResult Detail()
+        {
+            ProductViewModel product = new ProductViewModel(1, "Nasi Telor", "Makanan", 43000);
+            return View(product);
+;        }
     }
 }
