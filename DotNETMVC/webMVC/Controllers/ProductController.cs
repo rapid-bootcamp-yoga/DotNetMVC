@@ -34,10 +34,46 @@ namespace webMVC.Controllers
                 return View(_productViewModels);
         }
 
-        public IActionResult Detail()
+       
+
+        public IActionResult Edit(int? id)
         {
-            ProductViewModel product = new ProductViewModel(1, "Nasi Telor", "Makanan", 43000);
+            //cari data dulu pakai lamda  =>
+            ProductViewModel product = _productViewModels.Find(x => x.Id.Equals(id));
+            return View(product);
+        }
+
+        public IActionResult Update(int id, [Bind("Id, Name, Category, Price")] ProductViewModel product)
+        {
+            //hapus data sebelumnya by ID dulu 
+            ProductViewModel productBefore = _productViewModels.Find(x => x.Id.Equals(id));
+            _productViewModels.Remove(productBefore);
+
+            //input data baru yang mau diberikan
+            _productViewModels.Add(product);
+            return Redirect("List");
+        }
+
+        public IActionResult Detail(int id)
+        {
+            //cari dengan linq
+            ProductViewModel product = (
+                from p in _productViewModels
+                where p.Id.Equals(id)
+                select p
+                ).SingleOrDefault(new ProductViewModel());
             return View(product);
 ;        }
+
+        public IActionResult Delete(int? id)
+        {
+            //cari data dulu
+            ProductViewModel product = _productViewModels.Find(x => x.Id.Equals(id));
+
+            //baru dihapus
+            _productViewModels.Remove(product);
+
+            return Redirect("List");
+        }
     }
 }
