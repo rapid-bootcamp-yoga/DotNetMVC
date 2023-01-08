@@ -11,10 +11,7 @@ namespace webMVC.Controllers
             new CompanyViewModel( 2, "Telkomsel", "Komunikasi Informasi", "Jakarta"),
              new CompanyViewModel( 3, "Yamaha", "Otomotif", "Jakarta"),
         };
-        public IActionResult Index()
-        {
-            return View();
-        }
+       
 
         public IActionResult Add()
         {

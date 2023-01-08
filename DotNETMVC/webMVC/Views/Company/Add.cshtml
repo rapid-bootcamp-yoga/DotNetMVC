@@ -1,30 +1,30 @@
-﻿@model CompanyViewModels
+﻿@model CompanyViewModel
 
 @{
-    ViewData["Title"] = "Product Add";
+    ViewData["Title"] = "Company Add";
 }
 
-<h2>Form Add Product</h2>
+<h2>Form Add Company</h2>
 <form asp-action="save" method="post">
     <div class="form-group">
-        <label asp-for="Id" class="control-label">Product ID</label>
+        <label asp-for="Id" class="control-label">Company ID</label>
         <input asp-for="Id" class="form-control"/>
         <span asp-validation-for="Id" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Name" class="control-label">Name</label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
+        <label asp-for="CompanyName" class="control-label">CompanyName</label>
+        <input asp-for="CompanyName" class="form-control" />
+        <span asp-validation-for="CompanyName" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Category" class="control-label">Category</label>
-        <input asp-for="Category" class="form-control" />
-        <span asp-validation-for="Category" class="text-danger"></span>
+        <label asp-for="Segmentasi" class="control-label">Segmentasi</label>
+        <input asp-for="Segmentasi" class="form-control" />
+        <span asp-validation-for="Segmentasi" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Price" class="control-label">Price</label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
+        <label asp-for="Address" class="control-label">Alamat</label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

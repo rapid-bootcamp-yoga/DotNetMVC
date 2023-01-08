@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using webMVC.Models;
 
 namespace webMVC.Controllers
 {
     public class OrderController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        private static List<OrderViewModel> orderViewModels = new List<OrderViewModel>()
+       {
+           new OrderViewModel(1, 20, "Pilih yang bagus"),
+           new OrderViewModel(1, 20, "Pilih yang bagus"),
+           new OrderViewModel(1, 20, "Pilih yang bagus"),
+       };
     }
 }
