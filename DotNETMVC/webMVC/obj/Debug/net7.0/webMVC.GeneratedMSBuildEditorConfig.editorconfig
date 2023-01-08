@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Belajar Software Engineer\dotNET\DotNetMVC\dotNETMVC\webMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Belajar Software Engineer/dotNET/DotNetMVC/dotNETMVC/webMVC/Views/Company/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Belajar Software Engineer/dotNET/DotNetMVC/dotNETMVC/webMVC/Views/Company/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Belajar Software Engineer/dotNET/DotNetMVC/dotNETMVC/webMVC/Views/Company/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Belajar Software Engineer/dotNET/DotNetMVC/dotNETMVC/webMVC/Views/Company/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Belajar Software Engineer/dotNET/DotNetMVC/dotNETMVC/webMVC/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

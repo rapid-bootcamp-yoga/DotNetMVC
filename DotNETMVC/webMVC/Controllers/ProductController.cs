@@ -7,7 +7,7 @@ namespace webMVC.Controllers
     {
         private static List<ProductViewModel> _productViewModels = new List<ProductViewModel>()
         {
-            new ProductViewModel(1, "Pepaya", "Buah", 12000),
+                new ProductViewModel(1, "Pepaya", "Buah", 12000),
                 new ProductViewModel(2, "Nasi Liwet", "Makanan", 15000),
                 new ProductViewModel(3, "Jus Melon", "Minuman", 14000),
                 new ProductViewModel(4, "Ikan Gurame", "Makanan", 56000),
