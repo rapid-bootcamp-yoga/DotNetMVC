@@ -1,0 +1,27 @@
+﻿@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Order Detail";
+}
+
+<h2>Product Detail</h2>
+<table class="tab tab-content">
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <th>Jumlah</th>
+            <td>@Model.Count</td>
+        </tr>
+        <tr>
+            <th>Deskripsi</th>
+            <td>@Model.Description</td>
+        </tr>
+        <tr>
+            <th>Produk ID</th>
+            <td>@Model.ProductId</td>
+        </tr>
+    </tbody>
+</table>
